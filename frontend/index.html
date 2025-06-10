@@ -514,7 +514,7 @@
 
     <script>
         // Configuration
-        const API_BASE_URL = '/api'; // Adjust if your backend runs on a different port
+        const API_BASE_URL = '/https://alertainundacionesia-lpj2s.ondigitalocean.app/'; // Adjust if your backend runs on a different port
         const USE_MOCK_DATA = false; // Set to false when backend is ready
 
         // --- Mock Data ---
@@ -624,9 +624,9 @@
         document.getElementById('currentYear').textContent = new Date().getFullYear();
 
         // Llamada al cargar la página
-         document.addEventListener('DOMContentLoaded', () => {
-           fetchAndDisplayFloodZones();  // 👈 Aquí lo activamos
-        });
+        // document.addEventListener('DOMContentLoaded', () => {
+        //   fetchAndDisplayFloodZones();  // 👈 Aquí lo activamos
+        //});
         
         // Fetch News
         async function fetchNews() {
